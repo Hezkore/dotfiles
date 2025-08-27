@@ -76,7 +76,3 @@ pink = "#ff79c6"
 purple = "#bd93f9"
 red = "#ff5555"
 yellow = "#f1fa8c"
-
-# This is the default symbols table.
-[os]
-disabled = false
