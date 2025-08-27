@@ -1,0 +1,32 @@
+# Hezkore's Alacritty settings
+[window]
+dimensions = { columns = 127, lines = 37 }
+opacity = 0.99
+resize_increments = true
+
+[bell]
+animation = "Linear"
+duration = 250
+color = "#010101"
+
+[scrolling]
+multiplier = 1
+
+[font]
+normal = { family = "CaskaydiaMono Nerd Font Mono", style = "Medium" }
+size = 13
+
+[colors]
+transparent_background_colors = true
+
+[colors.primary]
+background = "#1e1f29"
+
+[mouse]
+hide_when_typing = true
+
+[env]
+TERM = "xterm-256color"
+
+[keyboard]
+bindings = [{ key = "Space", mods = "Control|Shift", action = "ReceiveChar" }]
