@@ -57,7 +57,7 @@ enabled=true
 trigger=!
 
 [python]
-enabled=false
+enabled=true
 
 [python.aur]
 enabled=false
@@ -73,7 +73,7 @@ enabled=false
 trigger="find "
 
 [python.translators]
-enabled=true
+enabled=false
 lang=en
 
 [snippets]
