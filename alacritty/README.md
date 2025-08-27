@@ -12,7 +12,7 @@ Then add `import = [ "./hezkore.toml" ]` under `[general]` in your `alacritty.to
 
 ```bash
 mkdir -p $XDG_CONFIG_HOME/alacritty
-ln -s $PWD/hezkore.toml $XDG_CONFIG_HOME/alacritty/hezkore.toml
+ln -fs $PWD/hezkore.toml $XDG_CONFIG_HOME/alacritty/hezkore.toml
 
 # Only if you don't already have a [general] section in your alacritty.toml
 echo '[general]' > $XDG_CONFIG_HOME/alacritty/alacritty.toml
