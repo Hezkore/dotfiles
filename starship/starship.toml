@@ -1,7 +1,6 @@
 palette = "dracula"
 
 format = """
-$cmd_duration\
 $directory\
 $fill\
 $git_branch\
@@ -39,13 +38,6 @@ style = "bold orange"
 [character]
 error_symbol = "[λ](bold red)"
 success_symbol = "[λ](bold green)"
-
-[cmd_duration]
-min_time = 1000
-style = "bold yellow"
-format = "[Took $duration]($style)\n"
-show_notifications = true
-min_time_to_notify = 1000
 
 [directory]
 style = "bold green"
