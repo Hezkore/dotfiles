@@ -14,7 +14,7 @@ multiplier = 1
 
 [font]
 normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Medium" }
-size = 13
+size = 13.5
 
 [colors]
 transparent_background_colors = true
