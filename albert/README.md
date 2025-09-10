@@ -9,6 +9,7 @@ Symlink `config` to `$XDG_CONFIG_HOME/albert/config`.
 ## Automatic Installation (Linux)
 
 ```bash
-mkdir -p $XDG_CONFIG_HOME/albert
-ln -fs $PWD/config $XDG_CONFIG_HOME/albert/config
+mkdir -p $XDG_CONFIG_HOME/albert;\
+ln -fs $PWD/config $XDG_CONFIG_HOME/albert/config;\
+ln -fs $PWD/websearch $XDG_CONFIG_HOME/albert/websearch
 ```
