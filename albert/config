@@ -8,6 +8,10 @@ telemetry=false
 [albert]
 global_handler_enabled=false
 
+[application]
+enabled=true
+global_handler_enabled=false
+
 [applications]
 enabled=true
 terminal=Alacritty
@@ -78,6 +82,9 @@ trigger="find "
 [python.translators]
 enabled=false
 lang=en
+
+[python.unit_converter]
+enabled=false
 
 [snippets]
 enabled=false
