@@ -4,6 +4,16 @@ dimensions = { columns = 127, lines = 37 }
 opacity = 0.99
 resize_increments = true
 
+[[hints.enabled]]
+command = "xdg-open"
+hyperlinks = true
+post_processing = true
+persist = false
+mouse.enabled = true
+mouse.mods = "Control"
+binding = { key = "O", mods = "Control|Shift" }
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`\\\\]+"
+
 [bell]
 animation = "EaseOutSine"
 duration = 250
@@ -27,7 +37,3 @@ hide_when_typing = true
 
 [env]
 TERM = "xterm-256color"
-
-[keyboard]
-# Originally I didn't want to rely on the Vim selection mode, but I've grown to attached to it now!
-#bindings = [{ key = "Space", mods = "Control|Shift", action = "ReceiveChar" }]
